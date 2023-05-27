@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "ae453c9a-d672-4e3d-bf4e-3847473197bc",
+		"name": "kby-ai-idcard",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2379931"
+	},
+	"item": [
+		{
+			"name": "idcard_recognition",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://18.221.33.238:8082/idcard_recognition",
+					"protocol": "http",
+					"host": [
+						"18",
+						"221",
+						"33",
+						"238"
+					],
+					"port": "8082",
+					"path": [
+						"idcard_recognition"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "idcard_recognition_base64",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"base64\":\"xxx\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8082/idcard_recognition_base64",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"idcard_recognition_base64"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
