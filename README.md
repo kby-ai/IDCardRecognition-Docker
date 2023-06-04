@@ -31,7 +31,7 @@ At the core of this project lies the ID Card Recognition SDK, which has been dev
 ## Try the API
 ### Online Demo
   You can test the SDK using images from the following URL:
-  http://18.221.33.238:9000/
+  http://18.221.33.238/
   
   ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/ff395174-d3e9-4198-bfc8-6024a8c31734)
   
