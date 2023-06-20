@@ -106,7 +106,7 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 
     Test with an image file: Send a POST request to http://{xx.xx.xx.xx}:8082/idcard_recognition
     
-    Test with a base64-encoded image: Send a POST request to http://{xx.xx.xx.xx}:8081/idcard_recognition_base64
+    Test with a base64-encoded image: Send a POST request to http://{xx.xx.xx.xx}:8082/idcard_recognition_base64
     
     You can download the Postman collection to easily access and use these endpoints. [click here](https://github.com/kby-ai/IDCardRecognition-Docker/tree/main/postman/kby-ai-idcard.postman_collection.json)
 
