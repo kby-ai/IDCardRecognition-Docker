@@ -107,7 +107,9 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
     ```
     sudo docker run -v ./license.txt:/root/kby-ai-idcard/license.txt -p 8082:8080 kby-ai-idcard
     ```
-  - Send us the machine code and replace the license.txt file you received. Then, run the Docker container again.
+  - Send us the machine code and then we will give you a license key.
+  
+    After that, update the license.txt file by overwriting the license key that you received. Then, run the Docker container again.
     
     ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/deab4a80-ae99-4646-a37d-b1441cff4dde)
     
