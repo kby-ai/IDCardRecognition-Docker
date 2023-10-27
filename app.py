@@ -13,10 +13,11 @@ from idsdk import idcardRecognition
 
 licensePath = "license.txt"
 license = ""
-
+# Reading machine code
 machineCode = getMachineCode()
 print("machineCode: ", machineCode.decode('utf-8'))
 
+# Matching license from machine code
 try:
     with open(licensePath, 'r') as file:
         license = file.read()
@@ -24,12 +25,15 @@ except IOError as exc:
     print("failed to open license.txt: ", exc.errno)
 print("license: ", license)
 
+# Activate SDK
 ret = setActivation(license.encode('utf-8'))
 print("activation: ", ret)
 
+# Initialization SDK
 ret = initSDK()
 print("init: ", ret)
 
+# Start Flask project
 app = Flask(__name__) 
 
 @app.route('/idcard_recognition', methods=['POST'])
