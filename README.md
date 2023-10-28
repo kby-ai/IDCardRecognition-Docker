@@ -50,7 +50,10 @@ At the core of this project lies the ID Card Recognition SDK, which has been dev
   https://web.kby-ai.com
   
   ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/ff395174-d3e9-4198-bfc8-6024a8c31734)
-  
+
+### Documentation
+https://docs.kby-ai.com/help/product/id-card-sdk
+
 ### Postman
   To test the API, you can use Postman. Here are the endpoints for testing:
   - Test with an image file: Send a POST request to http://18.221.33.238:8082/idcard_recognition
