@@ -94,7 +94,7 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
     ```
     git clone https://github.com/kby-ai/IDCardRecognition-Docker.git
     ```
-  - Download the model from Google Drive: [click here](https://drive.google.com/file/d/19vA7ZOlo19BcW8v4iCoCGahUEbgKCo48/view?usp=sharing)
+  - Download the model from Google Drive: [click here](https://drive.google.com/file/d/1fmTUG7a9IoMA8QiXR9A0xf3Cr6D5UkdC/view)
     ```
     cd IDCardRecognition-Docker
     
