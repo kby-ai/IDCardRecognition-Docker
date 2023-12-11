@@ -81,6 +81,8 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 
   Skype: live:.cid.66e2522354b1049b
 
+  Facebook: https://www.facebook.com/KBYAI
+
 ## How to run
 
 ### 1. System Requirements
