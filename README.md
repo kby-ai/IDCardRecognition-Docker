@@ -4,44 +4,31 @@
   </a>  
 </p>
 
-👏 Product List
-
-https://github.com/kby-ai/Product
-
-👏  We have published the Face Liveness Detection, Face Recognition SDK and ID Card Recognition SDK for the server.
-
-  - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
-
-  - [FaceRecognition-Docker](https://github.com/kby-ai/FaceRecognition-Docker)
-
-  - [IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)
+#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
+#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
+#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/r/kbyai/idcard-recognition)
+```bash
+sudo docker pull kbyai/idcard-recognition:latest
+sudo docker run -e LICENSE="xxxxx" -p 8082:8080 -p 9002:9000 kbyai/idcard-recognition:latest
+```
 
 # IDCardRecognition-Docker
 
 ## Introduction
 
-The demo project demonstrates the server-based recognition capabilities for ID cards, passports, and driver's licenses.
-
+The demo project demonstrates the server-based recognition capabilities for ID cards, passports, and driver's licenses.<br/>
 At the core of this project lies the ID Card Recognition SDK, which has been developed to provide comprehensive support for recognizing ID cards, passports, and driver's licenses from over 180 countries.
 
-> The demo is integrated with KBY-AI's ID Card Recognition Server SDK.
-
-> For other solutions, please explore the following:
->
-> [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
->
-> [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
->
-> [Face Recognition - Android(Stdndard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
->
-> [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
->
-> [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)
->
-> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)
->
-> [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
->
+> The demo is integrated with KBY-AI's ID Card Recognition Server SDK.<br/>
+> For other solutions, please explore the following:<br/>
+> [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)<br/>
+> [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)<br/>
+> [Face Recognition - Android(Stdndard SDK)](https://github.com/kby-ai/FaceRecognition-Android)<br/>
+> [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)<br/>
+> [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)<br/>
+> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)<br/>
+> [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)<br/>
 > [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
 
 ## Try the API
