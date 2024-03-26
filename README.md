@@ -56,13 +56,13 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 
 - The code below shows how to use the license: https://github.com/kby-ai/IDCardRecognition-Docker/blob/9f8138fa83d39a80a95e71b52048dbfc6579558c/app.py#L14-L25
 
-- In order to request the license, please provide us with the machine code obtained from the "getMachineCode" function.
+- To request the license, please provide us with the machine code obtained from the "getMachineCode" function.
 
-#### Please contact us:
+#### Please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
-🧙`Telegram:` @kbyai</br>
-🧙`WhatsApp:` +19092802609</br>
-🧙`Skype:` live:.cid.66e2522354b1049b</br>
+🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
+🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
+🧙`Skype:` [live:.cid.66e2522354b1049b](https://join.skype.com/invite/OffY2r1NUFev)</br>
 🧙`Facebook:` https://www.facebook.com/KBYAI</br>
 
 ## How to run
