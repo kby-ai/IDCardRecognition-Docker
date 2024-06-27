@@ -17,8 +17,8 @@ sudo docker run -e LICENSE="xxxxx" -p 8082:8080 -p 9002:9000 kbyai/idcard-recogn
 
 ## Introduction
 
-The demo project demonstrates the server-based recognition capabilities for ID cards, passports, and driver's licenses.<br/>
-At the core of this project lies the ID Card Recognition SDK, which has been developed to provide comprehensive support for recognizing ID cards, passports, and driver's licenses from over 180 countries.
+This repo demonstrates the server-based recognition capabilities for ID cards, passports, and driver's licenses.<br/>
+At the core of this project lies the ID Card Recognition SDK, which has been developed to provide comprehensive support for recognizing ID cards, passports, and driver's licenses from 200+ countries.
 
 ### ◾ID Card Recognition SDK Main Functionalities
 
@@ -45,9 +45,7 @@ At the core of this project lies the ID Card Recognition SDK, which has been dev
 
 ## Try the API
 ### Online Demo
-  You can test the SDK using images from the following URL:
-  https://web.kby-ai.com
-  
+  You can test the SDK using images [here](https://web.kby-ai.com).</br>  
   ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/ff395174-d3e9-4198-bfc8-6024a8c31734)
 
 ### Documentation
