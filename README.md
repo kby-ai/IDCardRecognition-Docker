@@ -17,8 +17,8 @@ sudo docker run -e LICENSE="xxxxx" -p 8082:8080 -p 9002:9000 kbyai/idcard-recogn
 
 ## Introduction
 
-This repo demonstrates the server-based recognition capabilities for ID cards, passports, and driver's licenses.<br/>
-At the core of this project lies the ID Card Recognition SDK, which has been developed to provide comprehensive support for recognizing ID cards, passports, and driver's licenses from 200+ countries.
+This repo demonstrates the server-based recognition capabilities for `ID card`, `passport`, and `driver's license`.<br/>
+At the core of this project lies the `ID Card Recognition SDK`, which has been developed to provide comprehensive support for recognizing `ID card`, `passport`, and `driver's license` from 200+ countries.
 
 ### ◾ID Card Recognition SDK Main Functionalities
 
@@ -52,21 +52,21 @@ At the core of this project lies the ID Card Recognition SDK, which has been dev
 https://docs.kby-ai.com/help/product/id-card-sdk
 
 ### Postman
-  To test the API, you can use Postman. Here are the endpoints for testing:
-  - Test with an image file: Send a POST request to http://18.221.33.238:8082/idcard_recognition
-  - Test with a base64-encoded image: Send a POST request to http://18.221.33.238:8082/idcard_recognition_base64
+  To test the `API`, you can use `Postman`. Here are the endpoints for testing:
+  - Test with an image file: Send a `POST` request to `http://18.221.33.238:8082/idcard_recognition`.
+  - Test with a `base64-encoded` image: Send a `POST` request to `http://18.221.33.238:8082/idcard_recognition_base64`.
 
-    You can download the Postman collection to easily access and use these endpoints. [click here](https://github.com/kby-ai/IDCardRecognition-Docker/tree/main/postman/kby-ai-idcard.postman_collection.json)
+    You can download the `Postman` collection to easily access and use these endpoints. [click here](https://github.com/kby-ai/IDCardRecognition-Docker/tree/main/postman/kby-ai-idcard.postman_collection.json)
     
     ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/0ec93826-76d7-47a7-9065-6bd353bc79b3)
 
 ## SDK License
 
-This project uses KBY-AI's Face Recognition Server SDK, which requires a license per machine.
+This project uses `KBY-AI`'s `ID card recognition server SDK`, which requires a license per machine.
 
 - The code below shows how to use the license: https://github.com/kby-ai/IDCardRecognition-Docker/blob/9f8138fa83d39a80a95e71b52048dbfc6579558c/app.py#L14-L25
 
-- To request the license, please provide us with the machine code obtained from the "getMachineCode" function.
+- To request the license, please provide us with the `machine code` obtained from the `getMachineCode` function.
 
 #### Please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
@@ -85,38 +85,38 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 
 ### 2. Setup and Test
   - Clone the project:
-    ```
+    ```bash
     git clone https://github.com/kby-ai/IDCardRecognition-Docker.git
     ```
-  - Download the model from Google Drive: [click here](https://drive.google.com/file/d/1fmTUG7a9IoMA8QiXR9A0xf3Cr6D5UkdC/view)
-    ```
+  - Download the model from `Google Drive`: [click here](https://drive.google.com/file/d/1fmTUG7a9IoMA8QiXR9A0xf3Cr6D5UkdC/view)
+    ```bash
     cd IDCardRecognition-Docker
     
     wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1fmTUG7a9IoMA8QiXR9A0xf3Cr6D5UkdC' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1fmTUG7a9IoMA8QiXR9A0xf3Cr6D5UkdC" -O data.zip && rm -rf /tmp/cookies.txt
     
     unzip data.zip
     ```
-  - Build the Docker image:
-    ```
+  - Build the `Docker` image:
+    ```bash
     sudo docker build --pull --rm -f Dockerfile -t kby-ai-idcard:latest .
     ```
-  - Run the Docker container:
-    ```
+  - Run the `Docker` container:
+    ```bash
     sudo docker run -v ./license.txt:/root/kby-ai-idcard/license.txt -p 8082:8080 kby-ai-idcard
     ```
-  - Send us the machine code and then we will give you a license key.
+  - Send us the `machine code` and then we will give you a `license key`.
   
-    After that, update the license.txt file by overwriting the license key that you received. Then, run the Docker container again.
+    After that, update the `license.txt` file by overwriting the license key that you received. Then, run the `Docker` container again.
     
     ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/deab4a80-ae99-4646-a37d-b1441cff4dde)
     
     ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/7994cecd-05fb-42e7-a21d-986da0e2d796)
 
-  - To test the API, you can use Postman. Here are the endpoints for testing:
+  - To test the `API`, you can use `Postman`. Here are the endpoints for testing:
 
-    Test with an image file: Send a POST request to http://{xx.xx.xx.xx}:8082/idcard_recognition
+    Test with an image file: Send a `POST` request to `http://{xx.xx.xx.xx}:8082/idcard_recognition`.
     
-    Test with a base64-encoded image: Send a POST request to http://{xx.xx.xx.xx}:8082/idcard_recognition_base64
+    Test with a `base64-encoded` image: Send a `POST` request to `http://{xx.xx.xx.xx}:8082/idcard_recognition_base64`.
     
     You can download the Postman collection to easily access and use these endpoints. [click here](https://github.com/kby-ai/IDCardRecognition-Docker/tree/main/postman/kby-ai-idcard.postman_collection.json)
 
@@ -124,20 +124,20 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
   - Setup Gradio
     Ensure that you have the necessary dependencies installed. 
     
-    Gradio requires Python 3.6 or above. 
+    `Gradio` requires `Python 3.6` or above. 
     
     You can install Gradio using pip by running the following command:
-    ```
+    ```bash
     pip install gradio
     ```
   - Run the demo
     Run it using the following command:
-    ```
+    ```bash
     cd gradio
     python demo.py
     ```
-  - You can test within the following URL:    
-    http://127.0.0.1:9000
+  - You can test within the following `URL`:    
+    `http://127.0.0.1:9000`
     
 ## About SDK
 
@@ -145,40 +145,40 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 
 - Step One
 
-  First, obtain the machine code for activation and request a license based on the machine code.
-  ```
+  First, obtain the `machine code` for activation and request a license based on the `machine code`.
+  ```python
   machineCode = getMachineCode()
   print("machineCode: ", machineCode.decode('utf-8'))
   ```
   
 - Step Two
 
-  Next, activate the SDK using the received license.
-  ```
+  Next, activate the `SDK` using the received license.
+  ```python
   setActivation(license.encode('utf-8'))
   ```  
-  If activation is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+  If activation is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 - Step Three
 
-  After activation, call the initialization function of the SDK.
-  ```
+  After activation, call the initialization function of the `SDK`.
+  ```python
   initSDK()
   ```
-  If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
+  If initialization is successful, the return value will be `SDK_SUCCESS`. Otherwise, an error value will be returned.
 
 ### 2. APIs
 
   - ID Card Recognition
 
-    The SDK provides a single API for ID card recognition.
+    The SDK provides a single `API` for `ID card recognition`.
     
     The function can be used as follows:
 
-    ```
+    ```python
     ret = idcardRecognition(base64_image.encode('utf-8'))
     ```
     
-    The function accepts only one parameter, which should be the base64-encoded format of the image (e.g., JPG, PNG, etc.).
+    The function accepts only one parameter, which should be the `base64-encoded` format of the image (e.g., `JPG`, `PNG`, etc.).
 
-    If the recognition is successful, the function will return a JSON-formatted string containing the recognized information. In case of failure, the return value will be NULL.
+    If the recognition is successful, the function will return a `JSON-formatted` string containing the recognized information. In case of failure, the return value will be `NULL`.
