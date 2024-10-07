@@ -183,4 +183,3 @@ This project uses `KBY-AI`'s `ID card recognition server SDK`, which requires a 
 
     If the recognition is successful, the function will return a `JSON-formatted` string containing the recognized information. In case of failure, the return value will be `NULL`.
 
-[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FIDCardRecognition-Docker&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FIDCardRecognition-Docker)
