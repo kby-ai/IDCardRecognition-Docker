@@ -17,22 +17,65 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": []
+							"src": "/media/user/Data/project/ka/idsdk/build/CA DL_Front.png"
+						},
+						{
+							"key": "image2",
+							"type": "file",
+							"src": [],
+							"disabled": true
 						}
 					]
 				},
 				"url": {
-					"raw": "http://18.221.33.238:8082/idcard_recognition",
+					"raw": "http://127.0.0.1:8082/idcard_recognition",
 					"protocol": "http",
 					"host": [
-						"18",
-						"221",
-						"33",
-						"238"
+						"127",
+						"0",
+						"0",
+						"1"
 					],
 					"port": "8082",
 					"path": [
 						"idcard_recognition"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "idcard_recognition_multi_page",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file1",
+							"type": "file",
+							"src": "/media/user/Data/project/ka/idsdk/build/IMG_20220115_024421.jpg"
+						},
+						{
+							"key": "file2",
+							"type": "file",
+							"src": "/media/user/Data/project/ka/idsdk/build/IMG_20220115_024426.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8082/idcard_recognition_multi_page",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"idcard_recognition_multi_page"
 					]
 				}
 			},
@@ -45,7 +88,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"base64\":\"xxx\"\r\n}",
+					"raw": "{\r\n    \"base64\":\"xxxx\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -53,7 +96,38 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8082/idcard_recognition_base64",
+					"raw": "http://18.221.33.238:8082/idcard_recognition_base64",
+					"protocol": "http",
+					"host": [
+						"18",
+						"221",
+						"33",
+						"238"
+					],
+					"port": "8082",
+					"path": [
+						"idcard_recognition_base64"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "idcard_recognition_base64_multi_page",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"base64_1\":\"xxxx\",\r\n    \"base64_2\":\"xxxx\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8082/idcard_recognition_base64_multi_page",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -63,7 +137,7 @@
 					],
 					"port": "8082",
 					"path": [
-						"idcard_recognition_base64"
+						"idcard_recognition_base64_multi_page"
 					]
 				}
 			},
