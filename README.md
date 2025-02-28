@@ -49,6 +49,7 @@ At the core of this project lies the `ID Card Recognition SDK`, which has been d
   | 4        | [ID Auto Capture - React](https://github.com/kby-ai/ID-document-capture-React)    | Web Front-end |
   | 5        | [ID Card Recognition - Windows](https://github.com/kby-ai/IDCardRecognition-Windows)        | Server-Windows |
   | ➡️        | <b>[ID Card Recognition - Linux](https://github.com/kby-ai/IDCardRecognition-Docker)</b>        | <b>Server-Linux</b> |
+  | 7        | [ID Card Recognition - C#](https://github.com/kby-ai/IDCardRecognition-CSharp-.NET)        | Server-Windows |
 
 ## Try the API
 ### Online Demo
