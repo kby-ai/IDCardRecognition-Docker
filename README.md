@@ -86,10 +86,10 @@ This project uses `KBY-AI`'s `ID card recognition server SDK`, which requires a 
 ## How to run
 
 ### 1. System Requirements
-  - CPU: 2 cores or more (Recommended: 2 cores)
-  - RAM: 4 GB or more (Recommended: 8 GB)
-  - HDD: 4 GB or more (Recommended: 8 GB)
-  - OS: Ubuntu 20.04 or later
+  - `CPU`: `2` cores or more (Recommended: `2` cores)
+  - `RAM`: `4GB` or more (Recommended: `8GB`)
+  - `HDD`: `4GB` or more (Recommended: `8GB`)
+  - `OS`: `Ubuntu 20.04` or later
 
 ### 2. Setup and Test
   - Clone the project:
@@ -110,7 +110,7 @@ This project uses `KBY-AI`'s `ID card recognition server SDK`, which requires a 
     ```
   - Run the `Docker` container:
     ```bash
-    sudo docker run -v ./license.txt:/root/kby-ai-idcard/license.txt -p 8082:8080 kby-ai-idcard
+    sudo docker run -v ./license.txt:/root/kby-ai-idcard/license.txt -p 8082:8080 -p 9002:9000 kby-ai-idcard:latest
     ```
   - Send us the `machine code` and then we will give you a `license key`.
   
