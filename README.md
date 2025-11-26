@@ -50,10 +50,11 @@ At the core of this project lies the `ID Card Recognition SDK`, which has been d
   | 5        | [ID Card Recognition - Windows](https://github.com/kby-ai/IDCardRecognition-Windows)        | Server-Windows |
   | ➡️        | <b>[ID Card Recognition - Linux](https://github.com/kby-ai/IDCardRecognition-Docker)</b>        | <b>Server-Linux</b> |
   | 7        | [ID Card Recognition - C#](https://github.com/kby-ai/IDCardRecognition-CSharp-.NET)        | Server-Windows |
+  | 8        | [ID Card Liveness Detection - Linux](https://github.com/kby-ai/ID-Document-Liveness-Detection-Docker)        | Server-Linux |
 
 ## Try the API
 ### Online Demo
-  You can test the SDK using images [here](https://web.kby-ai.com).</br>  
+  You can test the `SDK` against static images [here](https://web.kby-ai.com).</br>  
   ![image](https://github.com/kby-ai/IDCardRecognition-Docker/assets/125717930/ff395174-d3e9-4198-bfc8-6024a8c31734)
 
 ### Documentation
